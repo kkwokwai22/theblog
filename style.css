@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+h1 {
+  color: green;
+  font-size: 40px;
+  font-family: Helvetica;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  width: 1140px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 30px;
+}
+
+.blog-post {
+  float: left;
+  width: 75%;
+  padding-right: 30px;
+  position: relative;
+}
+
+.blog-post img {
+  height: 150px;
+}
+
+.dummy-post {
+  float: left;
+  width: 25%;
+}
+
+.author-box {
+  float: left;
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.author-box img {
+  float: left;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.author-box h2 {
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+/*make sure parent is relative and child is absolute for it to move around the element */
