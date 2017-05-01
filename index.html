@@ -1,47 +1,199 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8">
-      <title>First blog</title>
-      <link rel='stylesheet' type='text/css' href='style.css'>
+    <meta charset="utf-8">
+    <title>Kevin Site</title>
+    <link rel="stylesheet" type='text/css' href="resources/css/style.css">
+    <link rel="stylesheet" type='text/css' href="vendors/css/grid.css">
+    <link rel="stylesheet" type='text/css' href="vendors/css/ionicons.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet">
   </head>
   <body>
-    <div class='container'>
-      <div class='blog-post'>
-          <h1>My First blog post</h1>
-          <p class='date'>March 2, 2017</p>
-          <h2>This is my first blog post</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-          <a href='https://www.google.com' target="_blank">link to google</a>
-      </div>
-
-      <div class='dummy-post'>
-        dummypost
-        <div class='other-post'>
-          a
+    <header>
+      <nav>
+        <div class='row'>
+          <img src='resources/css/images/logo-white.png' alt='omnifood' class='logo'>
+          <ul class='main-nav'>
+            <li><a href='#'>Food delivery</a></li>
+            <li><a href='#'>How it works</a></li>
+            <li><a href='#'>Our cities</a></li>
+            <li><a href='#'>Sign up</a></li>
+          </ul>
         </div>
-        <div class='other-post'>
-          z
+      </nav>
+      <div class='hero-text-box'>
+        <h1>Goodbye junk food. <br>Hello super healthy meals.</h1>
+        <a class='btn btn-full' href='#'>I'm hungry</a>
+        <a class='btn btn-ghost'href='#'>Show me more</a>
+      </div>
+    </header>
+
+    <section class='section-features clearfix'>
+      <div class='row'>
+        <h2>Get food fast &mdash; not fast food</h2>
+        <p class='long-copy'>
+          Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+        <p>
+      </div>
+      <div class='row'>
+        <div class='col span-1-of-4 box'>
+          <i class='ion-calendar icon-big'></i>
+          <h3>
+            Up to 365 days/year
+          </h3>
+          <p>
+            Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+          </p>
         </div>
-        <div class='other-post'>
-          d
+        <div class='col span-1-of-4 box'>
+          <i class='ion-calendar icon-big'></i>
+          <h3>
+            Ready in 20 minutes
+          </h3>
+          <p>
+            You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+          </p>
+        </div>
+        <div class='col span-1-of-4 box'>
+          <i class='ion-calendar icon-big'></i>
+          <h3>
+            100% organic
+          </h3>
+          <p>
+            All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+          </p>
+        </div>
+        <div class='col span-1-of-4 box'>
+          <i class='ion-calendar icon-big'></i>
+          <h3>
+            Order anything
+          </h3>
+          <p>
+            We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu  -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class='sections-meals clearfix'>
+      <ul class='meals-showcase'>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/1.jpg' alt='example'>
+          </figure>
+        </li>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/2.jpg' alt='example'>
+          </figure>
+        </li>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/3.jpg' alt='example'>
+          </figure>
+        </li>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/4.jpg' alt='example'>
+          </figure>
+        </li>
+      </ul>
+      <ul class='meals-showcase'>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/5.jpg' alt='example'>
+          </figure>
+        </li>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/6.jpg' alt='example'>
+          </figure>
+        </li>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/7.jpg' alt='example'>
+          </figure>
+        </li>
+        <li>
+          <figure class='meal-photos'>
+            <img src='resources/css/images/8.jpg' alt='example'>
+          </figure>
+        </li>
+      </ul>
+
+    </section>
+
+    <section class='sections-step'>
+      <div class='row'>
+        <h2>How it works &mdash; Simple as 1 2 3</h2>
+      </div>
+      <div class='row'>
+        <div class='col span-1-of-2 step-box'>
+          <img src='resources/css/images/app-iPhone.png' alt='iphone' class='app-screen'>
+        </div>
+        <div class='col span-1-of-2 step-box'>
+          <div class='works-step'>
+              <div>1</div>
+              <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+          </div>
+          <div class='works-step'>
+              <div>2</div>
+              <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+          </div>
+          <div class='works-step'>
+              <div>3</div>
+              <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+          </div>
+
+          <a href='#' class='btn-app'><img src='resources/css/images/download-app.svg' alt='iphone'></a>
+          <a href='#' class='btn-app'><img src='resources/css/images/download-app-android.png' alt='android'></a>
+      </div>
+    </section>
+
+    <section class='sections-city'>
+      <div class='row'>
+        <h2>WE'RE CURRENTLY IN THESE CITIES</h2>
+      </div>
+      <div class='row'>
+        <div class='col span-1-of-4 city-box'>
+          <img src='resources/css/images/london.jpg' alt=berlin>
+          <h3>London</h3>
+          <ul>
+              <li>example1</li>
+              <li>example2</li>
+              <li>example3</li>
+          </ul>
+        </div>
+        <div class='col span-1-of-4 city-box'>
+          <img src='resources/css/images/berlin.jpg' alt=berlin>
+          <h3>Berlin</h3>
+          <ul>
+              <li>example1</li>
+              <li>example2</li>
+              <li>example3</li>
+          </ul>
+        </div>
+        <div class='col span-1-of-4 city-box'>
+          <img src='resources/css/images/san-francisco.jpg' alt=berlin>
+          <h3>San Francisco</h3>
+          <ul>
+              <li>example1</li>
+              <li>example2</li>
+              <li>example3</li>
+          </ul>
+        </div>
+        <div class='col span-1-of-4 city-box'>
+          <img src='resources/css/images/lisbon-3.jpg' alt=berlin>
+          <h3>Lisbon</h3>
+          <ul>
+              <li>example1</li>
+              <li>example2</li>
+              <li>example3</li>
+          </ul>
         </div>
       </div>
 
-      <div class='blog-post'>
-        <h1>HTML is great</h1>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-        <img src='logo.jpg' alt='logo'>
-      </div>
+    </section>
 
-
-      <div class='clearfix'>
-      </div>
-
-      <div class='author-box'>
-        <img src='author.jpg' alt='author'>
-        <h2 class='author-text'>Samson G</h2>
-      </div>
-    </div>
   </body>
 </html>
